@@ -1,0 +1,6 @@
+{
+  "name": "Smart QR Attendance System",
+  "description": "Smart QR Code Attendance & Student ID Card Verification System with photo, roll number and instant status verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
