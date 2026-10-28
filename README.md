@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# College QR Code Attendance Management System
 
-# Run and deploy your AI Studio app
+A simple web-based application to manage college student attendance using QR code scanning.
 
-This contains everything you need to run your app locally.
+## Features
+- Student Registration
+- QR Code Generation
+- Automatic Attendance Tracking
+- Duplicate Attendance Prevention
+- Attendance Records and Reports
 
-View your app in AI Studio: https://ai.studio/apps/77abc25a-36df-44b5-883d-199cedc9bff7
+## Technologies Used
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+- SQLite
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Python 3 and VS Code
 
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Install dependencies:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   py -m pip install -r requirements.txt
+   ```
+
+4. Run the application:
+
+   ```bash
+   py app.py
+   ```
+
+5. Open your browser and visit:
+
+   `http://127.0.0.1:5000`
+
+## Project Purpose
+
+This project aims to simplify college attendance management, reduce manual work, and maintain student attendance records efficiently.
+
+## Author
+
+N Geerthika
